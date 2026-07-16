@@ -1,0 +1,19 @@
+INFO  2026-07-15T02:42:34 +887ms service=default version=v1.4.17 args=["session","list"] opencode
+INFO  2026-07-15T02:42:34 +1ms service=default directory=/home/sourcecraft-ci-runner/sourcecraft/workspace creating instance
+INFO  2026-07-15T02:42:34 +10ms service=project directory=/home/sourcecraft-ci-runner/sourcecraft/workspace fromDirectory
+INFO  2026-07-15T02:42:34 +71ms service=db path=/root/.local/share/opencode/opencode.db opening database
+INFO  2026-07-15T02:42:34 +27ms service=db count=10 mode=bundled applying migrations
+INFO  2026-07-15T02:42:34 +41ms service=default directory=/home/sourcecraft-ci-runner/sourcecraft/workspace bootstrapping
+INFO  2026-07-15T02:42:34 +61ms service=config path=/root/.config/opencode/config.json loading
+INFO  2026-07-15T02:42:34 +1ms service=config path=/root/.config/opencode/opencode.json loading
+INFO  2026-07-15T02:42:34 +12ms service=config path=/root/.config/opencode/opencode.jsonc loading
+INFO  2026-07-15T02:42:34 +2ms service=config path=/home/sourcecraft-ci-runner/sourcecraft/workspace/opencode.json loading
+INFO  2026-07-15T02:42:34 +34ms service=config path=/home/sourcecraft-ci-runner/sourcecraft/workspace/.opencode/opencode.json loading
+INFO  2026-07-15T02:42:34 +6ms service=config path=/home/sourcecraft-ci-runner/sourcecraft/workspace/.opencode/opencode.jsonc loading
+INFO  2026-07-15T02:42:34 +1ms service=npm dir=/root/.config/opencode checking dependencies
+INFO  2026-07-15T02:42:34 +2ms service=npm dependencies in sync
+INFO  2026-07-15T02:42:34 +4ms service=config path=/root/.config/sourcecraft/opencode/opencode.json loading
+INFO  2026-07-15T02:42:34 +8ms service=config path=/root/.config/sourcecraft/opencode/opencode.jsonc loading
+INFO  2026-07-15T02:42:34 +1ms service=npm dir=/home/sourcecraft-ci-runner/sourcecraft/workspace/.opencode checking dependencies
+INFO  2026-07-15T02:42:34 +10ms service=npm dependencies in sync
+INFO  2026-07-15T02:42:34 +16ms service=plugin name=CodexAuthPlugin loading internal plugin

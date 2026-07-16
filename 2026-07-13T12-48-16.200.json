@@ -1,0 +1,13 @@
+{"L":"DEBUG","T":"2026-07-13T12:48:16.201Z","M":"Starting","os":"linux","arch":"amd64","version":"0.0.95","build":"2026-07-03T10:51:48Z","sha":"2170754d63256fa3f4ceafa4bb4f6454b4267256","args":"/root/sourcecraft/bin/src completion bash"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.204Z","M":"Environment set to ExtProd (method=default)"}
+{"L":"WARN","T":"2026-07-13T12:48:16.204Z","M":"keyring storage was requested but keyring is not available on this system (common on WSL); falling back to filesystem storage. Run 'src auth setup' to change storage backend."}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.204Z","M":"using fs backend @ /root/.config/sourcecraft/credentials"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.204Z","M":"Syncing update state from server"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.204Z","M":"Trying new .version file","url":"https://s3.yandexcloud.net/sourcecraft-cli/channels/stable/.version"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.235Z","M":"Got version from .version file","version":"0.0.95"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.242Z","M":"Fetching OpenCode version from channel","url":"https://s3.yandexcloud.net/sourcecraft-cli/channels/stable/.opencode-version"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.250Z","M":"Got OpenCode version from channel","version":"v1.4.17"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.250Z","M":"CLI is up to date","current":"0.0.95","latest":"0.0.95"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.250Z","M":"No cached OpenCode version, running opencode --version"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.250Z","M":"Failed to open code binary (not installed?)","error":"stat /root/.config/sourcecraft/bin/opencode: no such file or directory"}
+{"L":"DEBUG","T":"2026-07-13T12:48:16.250Z","M":"OpenCode not installed, skipping update check","error":"stat /root/.config/sourcecraft/bin/opencode: no such file or directory"}
